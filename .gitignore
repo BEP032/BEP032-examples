@@ -1,0 +1,30 @@
+#########################################
+# Editor temporary/working/backup files #
+.#*
+[#]*#
+*~
+*$
+*.bak
+.coverage
+*.kdev4
+*.komodoproject
+.mr.developer.cfg
+nosetests.xml
+*.orig
+.project
+.pydevproject
+.settings
+*.tmp*
+.idea
+
+
+# OS generated files #
+######################
+.directory
+.gdb_history
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+
