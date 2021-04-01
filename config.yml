@@ -1,0 +1,3 @@
+annex:
+    minsize: 0
+    exclude: ["*README*", "*LICENSE*", "config*", "*.json", "*.tsv", "**/.git*"]
