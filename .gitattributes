@@ -1,0 +1,6 @@
+LICENSE* annex.largefiles=nothing
+README* annex.largefiles=nothing
+config* annex.largefiles=nothing
+
+* annex.backend=MD5E
+**/.git* annex.largefiles=nothing
