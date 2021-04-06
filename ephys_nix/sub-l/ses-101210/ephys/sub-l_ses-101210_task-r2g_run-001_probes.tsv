@@ -1,0 +1,2 @@
+probeID	type	location	placement_picture	hemisphere	manufacturer	device_serial_number	contact_count	depth	width	height	dimension_units	wires_material	wires_diameter	wires_length	wires_units	owner
+prob-1025-0503	utah array	M1	https://www.nature.com/articles/sdata201855/figures/1	right	Blackrock Microsystems	1025-0503	100	1.5	4	4	mm	Pt/Au	2.5E-05	0.04	m	RIKEN-BSI, Japan
