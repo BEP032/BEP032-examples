@@ -1,0 +1,92 @@
+{
+  "channelID": {
+    "Description": "Unique identifier of the channel"
+  },
+  "contact_id": {
+    "Description": "Unique identifier of the contact"
+  },
+  "sampling_frequency": {
+    "Description": "Sampling frequency of the recording signal"
+  },
+  "units": {
+    "Description": "Units of the recording signal"
+  },
+  "channel_name": {
+    "Description": "Custom name of the recording channel"
+  },
+  "file_origin": {
+    "Description": "Source file of the signal"
+  },
+  "connector_id": {
+    "Description": "Id of the connector used for recording the signal"
+  },
+  "connector_pin_ID": {
+    "Description": "Pin used for recording the signal"
+  },
+  "nev_dig_factor": {
+    "Description": "Digitization factor of the nev file"
+  },
+  "nb_sorted_units": {
+    "Description": "Number of sorted units on this channel"
+  },
+  "nev_hi_freq_order": {
+    "Description": "High pass order of the frequency filter"
+  },
+  "nev_hi_freq_type": {
+    "Description": "Type of the high pass frequency filter"
+  },
+  "nev_lo_freq_order": {
+    "Description": "Low pass order of the frequency filter"
+  },
+  "nev_lo_freq_type": {
+    "Description": "Type of the high pass frequency filter"
+  },
+  "nsx_hi_freq_order": {
+    "Description": "Order of the high pass frequency filter"
+  },
+  "nsx_lo_freq_order": {
+    "Description": "Order of the low pass frequency filter"
+  },
+  "nsx_hi_freq_type": {
+    "Description": "Type of the high pass frequency filter"
+  },
+  "nsx_lo_freq_type": {
+    "Description": "Type of the low pass frequency filter"
+  },
+  "nsx": {
+    "Description": "NsX value used for storing of the signal"
+  },
+  "hi_pass_freq": {
+    "Description": "Cutoff frequency of the high pass filter"
+  },
+  "lo_pass_freq": {
+    "Description": "Cutoff frequency of the low pass filter"
+  },
+  "hi_pass_order": {
+    "Description": "Order of the high pass filter"
+  },
+  "lo_pass_order": {
+    "Description": "Order of the low pass filter"
+  },
+  "filter_type": {
+    "Description": "Type of filter used"
+  },
+  "electrode_reject_LFC": {
+    "Description": "Rejection of the signal in low frequency components (TRUE/FALSE)"
+  },
+  "electrode_reject_IFC": {
+    "Description": "Rejection of the signal in intermediate frequency components (TRUE/FALSE)"
+  },
+  "electrode_reject_HFC": {
+    "Description": "Rejection of the signal in high frequency components (TRUE/FALSE)"
+  },
+  "connector_aligned_id": {
+    "Description": "channelID in a spatially organized grid"
+  },
+  "coordinates_x": {
+    "Description": "X-coordinate of the channel"
+  },
+  "coordinates_y": {
+    "Description": "Y-coordinate of the channel"
+  }
+}

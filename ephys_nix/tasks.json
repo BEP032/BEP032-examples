@@ -1,0 +1,12 @@
+{
+  "taskID": {
+    "Description": "Unique identifier of the task",
+    "Level": {
+      "r2g": {
+        "Description": "A task that involves the reaching of an object and holding it for a specific time",
+        "LongName": "Reach-to-Grasp",
+        "task_type": "two-cue"
+      }
+    }
+  }
+}
