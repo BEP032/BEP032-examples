@@ -1,2 +1,3 @@
-sessionID	session_quality	data_quality	#_trials	comment	weekday	noisy
+"session_id
+"	session_quality	data_quality	#_trials	comment	weekday	noisy
 101210	excellent	good	204	n/a	friday	yes

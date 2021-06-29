@@ -1,29 +1,29 @@
 {
-  "subjectID": {
+  "SubjectID": {
     "Description": "Short identifier for monkey (e.g., used in file names)"
   },
-  "species": {
+  "Species": {
     "Description": "binomial species name (genus, species with genus)"
   },
-  "sex": {
+  "Sex": {
     "Description": "Sex of the animal (male/female)"
   },
-  "birthdate": {
+  "Birthdate": {
     "Description": "Date of birth"
   },
-  "handedness": {
+  "Handedness": {
     "Description": "Trained hand (left and/or right)"
   },
-  "surgerydate": {
+  "SurgeryDate": {
     "Description": "Date of the surgery"
   },
-  "disabilities": {
+  "Disabilities": {
     "Description": "Comment on existing disabilities"
   },
-  "character": {
+  "Character": {
     "Description": "Comment on the general character/personality"
   },
-  "given_name": {
+  "GivenName": {
     "Description": "Given Name"
   }
 }

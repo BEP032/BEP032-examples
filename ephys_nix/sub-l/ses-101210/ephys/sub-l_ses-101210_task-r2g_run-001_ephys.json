@@ -1,92 +1,99 @@
 {
-  "channelID": {
+  "InstitutionName": "Institut de Neuroscience de la Timone, Marseille, France”,
+  "InstitutionAddress": "Faculté de Médecine,  27, boulevard Jean Moulin, 13005 Marseille, France",
+  "Collaborators": [
+    "Institute of Neuroscience and Medicine (INM-6), 52425 Jülich, Germany",
+    "Institute for Advanced Simulation (IAS-6), 52425 Jülich, Germany",
+    "JARA Institute Brain Structure-Function Relationships (INM-10), 52425 Jülich, Germany"
+  ],
+  "ChannelId": {
     "Description": "Unique identifier of the channel"
   },
-  "contact_id": {
+  "ContactId": {
     "Description": "Unique identifier of the contact"
   },
-  "sampling_frequency": {
+  "SamplingSrequency": {
     "Description": "Sampling frequency of the recording signal"
   },
-  "units": {
+  "Units": {
     "Description": "Units of the recording signal"
   },
-  "channel_name": {
+  "ChannelName": {
     "Description": "Custom name of the recording channel"
   },
-  "file_origin": {
+  "FileOrigin": {
     "Description": "Source file of the signal"
   },
-  "connector_id": {
+  "ConnectorId": {
     "Description": "Id of the connector used for recording the signal"
   },
-  "connector_pin_ID": {
+  "ConnectorPinId": {
     "Description": "Pin used for recording the signal"
   },
-  "nev_dig_factor": {
+  "NevDigFactor": {
     "Description": "Digitization factor of the nev file"
   },
-  "nb_sorted_units": {
+  "NbSortedUnits": {
     "Description": "Number of sorted units on this channel"
   },
-  "nev_hi_freq_order": {
+  "NevHiFreqOrder": {
     "Description": "High pass order of the frequency filter"
   },
-  "nev_hi_freq_type": {
+  "NevHiFreqType": {
     "Description": "Type of the high pass frequency filter"
   },
-  "nev_lo_freq_order": {
+  "NevLoFreqOrder": {
     "Description": "Low pass order of the frequency filter"
   },
-  "nev_lo_freq_type": {
+  "NevLoFreqType": {
     "Description": "Type of the high pass frequency filter"
   },
-  "nsx_hi_freq_order": {
+  "NsxHiFreqOrder": {
     "Description": "Order of the high pass frequency filter"
   },
-  "nsx_lo_freq_order": {
+  "NsxLoFreqOrder": {
     "Description": "Order of the low pass frequency filter"
   },
-  "nsx_hi_freq_type": {
+  "NsxHiFreqType": {
     "Description": "Type of the high pass frequency filter"
   },
-  "nsx_lo_freq_type": {
+  "NsxLoFreqType": {
     "Description": "Type of the low pass frequency filter"
   },
-  "nsx": {
+  "Nsx": {
     "Description": "NsX value used for storing of the signal"
   },
-  "hi_pass_freq": {
+  "HiPassFreq": {
     "Description": "Cutoff frequency of the high pass filter"
   },
-  "lo_pass_freq": {
+  "LoPassFreq": {
     "Description": "Cutoff frequency of the low pass filter"
   },
-  "hi_pass_order": {
+  "HiPassOrder": {
     "Description": "Order of the high pass filter"
   },
-  "lo_pass_order": {
+  "LoPassOrder": {
     "Description": "Order of the low pass filter"
   },
-  "filter_type": {
+  "FilterType": {
     "Description": "Type of filter used"
   },
-  "electrode_reject_LFC": {
+  "ElectrodeRejectLfc": {
     "Description": "Rejection of the signal in low frequency components (TRUE/FALSE)"
   },
-  "electrode_reject_IFC": {
+  "ElectrodeRejectIfc": {
     "Description": "Rejection of the signal in intermediate frequency components (TRUE/FALSE)"
   },
-  "electrode_reject_HFC": {
+  "ElectrodeRejectHfc": {
     "Description": "Rejection of the signal in high frequency components (TRUE/FALSE)"
   },
-  "connector_aligned_id": {
-    "Description": "channelID in a spatially organized grid"
+  "ConnectorAlignedId": {
+    "Description": "channelId in a spatially organized grid"
   },
-  "coordinates_x": {
+  "CoordinatesX": {
     "Description": "X-coordinate of the channel"
   },
-  "coordinates_y": {
+  "CoordinatesY": {
     "Description": "Y-coordinate of the channel"
   }
 }

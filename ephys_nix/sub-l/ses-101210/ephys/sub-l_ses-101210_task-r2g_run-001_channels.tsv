@@ -1,4 +1,4 @@
-channelID	contact_id	sampling_frequency	units	channel_names	file_origin	connectorID	connector_pin_ID	nev_dig_factor	nb_sorted_units	nsx	hi_pass_freq	lo_pass_freq	hi_pass_order	lo_pass_order	filter_type	electrode_reject_HFC	electrode_reject_LFC	electrode_reject_IFC	connector_aligned_ids	coordinates_x	coordinates_y
+channel_id	contact_id	sampling_frequency	units	channel_names	file_origin	connector_id	connector_pin_id	nev_dig_factor	nb_sorted_units	nsx	hi_pass_freq	lo_pass_freq	hi_pass_order	lo_pass_order	filter_type	electrode_reject_HFC	electrode_reject_LFC	electrode_reject_IFC	connector_aligned_ids	coordinates_x	coordinates_y
 137	n/a	1000	uV	ainp9	../../../sourcedata/l101210-001.ns2	5	9	21516	0	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
 138	n/a	1000	uV	ainp10	../../../sourcedata/l101210-001.ns2	5	10	21516	0	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a
 139	n/a	1000	uV	ainp11	../../../sourcedata/l101210-001.ns2	5	11	21516	0	2	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a	n/a

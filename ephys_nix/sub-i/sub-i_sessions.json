@@ -1,23 +1,23 @@
 {
-  "sessionID": {
+  "SessionId": {
     "Description": "Unique identifier of the session"
   },
-  "session_quality": {
+  "SessionQuality": {
     "Description": "General quality of the session (excellent/good/ok/bad)"
   },
-  "data_quality": {
+  "DataQuality": {
     "Description": "Quality of the recorded data (excellent/good/ok/bad)"
   },
-  "#_trials": {
+  "#Trials": {
     "Description": "Number of trial within the session"
   },
-  "comment": {
+  "Comment": {
     "Description": "Comment by the experimenter"
   },
-  "weekday": {
+  "Weekday": {
     "Description": "Day of the week the recording was performed (monday,tuesday,...)"
   },
-  "noisy": {
+  "Noisy": {
     "Description": "Was noise observed in the data during the recording (yes/no)"
   }
 }
