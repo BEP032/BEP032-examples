@@ -1,4 +1,4 @@
-channel_id	Contact_id	type	units	sampling_frequency	unit_conversion_multiplier
+channel_id	contact_id	type	units	sampling_frequency	unit_conversion_multiplier
 0	0	neural signal	volts	20000.0	1.9499999999999999e-07
 1	1	neural signal	volts	20000.0	1.9499999999999999e-07
 2	2	neural signal	volts	20000.0	1.9499999999999999e-07
