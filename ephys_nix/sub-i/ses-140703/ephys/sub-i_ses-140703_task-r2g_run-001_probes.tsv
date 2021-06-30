@@ -1,2 +1,2 @@
-probeID	type	location	placement_picture	hemisphere	manufacturer	device_serial_number	contact_count	depth	width	height	dimension_units	wires_material	wires_diameter	wires_length	wires_units	owner
+probe_id	type	location	placement_picture	hemisphere	manufacturer	device_serial_number	contact_count	depth	width	height	dimension_units	wires_material	wires_diameter	wires_length	wires_units	owner
 Prob-8596-001139	utah array	M1	https://www.nature.com/articles/sdata201855/figures/1	right	Blackrock Microsystems	8596-001139	100	1.5	4	4	mm	Pt/Au	0.000025	0.04	m	RIKEN-BSI, Japan

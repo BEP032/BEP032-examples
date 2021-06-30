@@ -1,4 +1,4 @@
-contactID	probeID	connector_aligned_id	hemisphere	x	y	z	impedance	impedance_unit	location	material	insulation
+contact_id	probe_id	connector_aligned_id	hemisphere	x	y	z	impedance	impedance_unit	location	material	insulation
 1	Prob-8596-001139	93	right	3.6	0.8	1.5	73	kOhm	M1	iridium oxide	Parylene-c
 2	Prob-8596-001139	92	right	3.6	0.4	1.5	92	kOhm	M1	iridium oxide	Parylene-c
 3	Prob-8596-001139	94	right	3.6	1.2	1.5	68	kOhm	M1	iridium oxide	Parylene-c

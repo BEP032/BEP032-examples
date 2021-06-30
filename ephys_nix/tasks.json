@@ -1,5 +1,5 @@
 {
-  "taskID": {
+  "TaskID": {
     "Description": "Unique identifier of the task",
     "Level": {
       "r2g": {
