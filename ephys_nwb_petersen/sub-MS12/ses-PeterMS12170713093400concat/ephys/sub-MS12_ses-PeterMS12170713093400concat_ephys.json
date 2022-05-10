@@ -1,1 +1,4 @@
-{"PowerLineFrequency": 60.0}
+{
+  "PowerLineFrequency": 60.0,
+  "PowerLineFrequencyUnit": "Hz"
+}
