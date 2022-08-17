@@ -17,6 +17,8 @@ nosetests.xml
 *.tmp*
 .idea
 
+# sphinx build folder
+_build
 
 # OS generated files #
 ######################
@@ -27,4 +29,9 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
+# Sphinx
+doc/auto_tutorials
 
+# Tutorials
+tutorials/ironclust*
+tutorials/spikeinterface_recording.json
