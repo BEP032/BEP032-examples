@@ -1,97 +1,97 @@
-contact_id	probe_id	connector_aligned_id	hemisphere	x	y	impedance	impedance_unit	location	material	insulation
-1	Prob-8596-001139	93	right	3.6	0.8	73	kOhm	M1	iridium oxide	Parylene-c
-2	Prob-8596-001139	92	right	3.6	0.4	92	kOhm	M1	iridium oxide	Parylene-c
-3	Prob-8596-001139	94	right	3.6	1.2	68	kOhm	M1	iridium oxide	Parylene-c
-4	Prob-8596-001139	95	right	3.6	1.6	67	kOhm	M1	iridium oxide	Parylene-c
-5	Prob-8596-001139	75	right	2.8	1.6	48	kOhm	M1	iridium oxide	Parylene-c
-6	Prob-8596-001139	96	right	3.6	2.0	57	kOhm	M1	iridium oxide	Parylene-c
-7	Prob-8596-001139	85	right	3.2	1.6	51	kOhm	M1	iridium oxide	Parylene-c
-8	Prob-8596-001139	97	right	3.6	2.4	61	kOhm	M1	iridium oxide	Parylene-c
-9	Prob-8596-001139	86	right	3.2	2.0	72	kOhm	M1	iridium oxide	Parylene-c
-10	Prob-8596-001139	98	right	3.6	2.8	57	kOhm	M1	iridium oxide	Parylene-c
-11	Prob-8596-001139	87	right	3.2	2.4	46	kOhm	M1	iridium oxide	Parylene-c
-12	Prob-8596-001139	88	right	3.2	2.8	41	kOhm	M1	iridium oxide	Parylene-c
-13	Prob-8596-001139	77	right	2.8	2.4	69	kOhm	M1	iridium oxide	Parylene-c
-14	Prob-8596-001139	99	right	3.6	3.2	44	kOhm	M1	iridium oxide	Parylene-c
-15	Prob-8596-001139	66	right	2.4	2.0	51	kOhm	M1	iridium oxide	Parylene-c
-16	Prob-8596-001139	89	right	3.2	3.2	46	kOhm	M1	iridium oxide	Parylene-c
-17	Prob-8596-001139	76	right	2.8	2.0	61	kOhm	M1	iridium oxide	Parylene-c
-18	Prob-8596-001139	90	right	3.2	3.6	47	kOhm	M1	iridium oxide	Parylene-c
-19	Prob-8596-001139	67	right	2.4	2.4	47	kOhm	M1	iridium oxide	Parylene-c
-20	Prob-8596-001139	79	right	2.8	3.2	44	kOhm	M1	iridium oxide	Parylene-c
-21	Prob-8596-001139	58	right	2.0	2.8	42	kOhm	M1	iridium oxide	Parylene-c
-22	Prob-8596-001139	80	right	2.8	3.6	43	kOhm	M1	iridium oxide	Parylene-c
-23	Prob-8596-001139	78	right	2.8	2.8	41	kOhm	M1	iridium oxide	Parylene-c
-24	Prob-8596-001139	70	right	2.4	3.6	48	kOhm	M1	iridium oxide	Parylene-c
-25	Prob-8596-001139	68	right	2.4	2.8	48	kOhm	M1	iridium oxide	Parylene-c
-26	Prob-8596-001139	60	right	2.0	3.6	45	kOhm	M1	iridium oxide	Parylene-c
-27	Prob-8596-001139	69	right	2.4	3.2	46	kOhm	M1	iridium oxide	Parylene-c
-28	Prob-8596-001139	50	right	1.6	3.6	44	kOhm	M1	iridium oxide	Parylene-c
-29	Prob-8596-001139	59	right	2.0	3.2	46	kOhm	M1	iridium oxide	Parylene-c
-30	Prob-8596-001139	40	right	1.2	3.6	45	kOhm	M1	iridium oxide	Parylene-c
-31	Prob-8596-001139	49	right	1.6	3.2	52	kOhm	M1	iridium oxide	Parylene-c
-32	Prob-8596-001139	30	right	0.8	3.6	51	kOhm	M1	iridium oxide	Parylene-c
-33	Prob-8596-001139	83	right	3.2	0.8	52	kOhm	M1	iridium oxide	Parylene-c
-34	Prob-8596-001139	84	right	3.2	1.2	69	kOhm	M1	iridium oxide	Parylene-c
-35	Prob-8596-001139	73	right	2.8	0.8	60	kOhm	M1	iridium oxide	Parylene-c
-36	Prob-8596-001139	74	right	2.8	1.2	76	kOhm	M1	iridium oxide	Parylene-c
-37	Prob-8596-001139	63	right	2.4	0.8	48	kOhm	M1	iridium oxide	Parylene-c
-38	Prob-8596-001139	64	right	2.4	1.2	58	kOhm	M1	iridium oxide	Parylene-c
-39	Prob-8596-001139	53	right	2.0	0.8	47	kOhm	M1	iridium oxide	Parylene-c
-40	Prob-8596-001139	54	right	2.0	1.2	54	kOhm	M1	iridium oxide	Parylene-c
-41	Prob-8596-001139	43	right	1.6	0.8	47	kOhm	M1	iridium oxide	Parylene-c
-42	Prob-8596-001139	55	right	2.0	1.6	57	kOhm	M1	iridium oxide	Parylene-c
-43	Prob-8596-001139	44	right	1.6	1.2	56	kOhm	M1	iridium oxide	Parylene-c
-44	Prob-8596-001139	45	right	1.6	1.6	57	kOhm	M1	iridium oxide	Parylene-c
-45	Prob-8596-001139	33	right	1.2	0.8	53	kOhm	M1	iridium oxide	Parylene-c
-46	Prob-8596-001139	46	right	1.6	2.0	53	kOhm	M1	iridium oxide	Parylene-c
-47	Prob-8596-001139	34	right	1.2	1.2	49	kOhm	M1	iridium oxide	Parylene-c
-48	Prob-8596-001139	65	right	2.4	1.6	47	kOhm	M1	iridium oxide	Parylene-c
-49	Prob-8596-001139	24	right	0.8	1.2	67	kOhm	M1	iridium oxide	Parylene-c
-50	Prob-8596-001139	56	right	2.0	2.0	57	kOhm	M1	iridium oxide	Parylene-c
-51	Prob-8596-001139	35	right	1.2	1.6	51	kOhm	M1	iridium oxide	Parylene-c
-52	Prob-8596-001139	47	right	1.6	2.4	50	kOhm	M1	iridium oxide	Parylene-c
-53	Prob-8596-001139	25	right	0.8	1.6	57	kOhm	M1	iridium oxide	Parylene-c
-54	Prob-8596-001139	57	right	2.0	2.4	52	kOhm	M1	iridium oxide	Parylene-c
-55	Prob-8596-001139	26	right	0.8	2.0	45	kOhm	M1	iridium oxide	Parylene-c
-56	Prob-8596-001139	36	right	1.2	2.0	46	kOhm	M1	iridium oxide	Parylene-c
-57	Prob-8596-001139	27	right	0.8	2.4	62	kOhm	M1	iridium oxide	Parylene-c
-58	Prob-8596-001139	37	right	1.2	2.4	64	kOhm	M1	iridium oxide	Parylene-c
-59	Prob-8596-001139	28	right	0.8	2.8	55	kOhm	M1	iridium oxide	Parylene-c
-60	Prob-8596-001139	38	right	1.2	2.8	57	kOhm	M1	iridium oxide	Parylene-c
-61	Prob-8596-001139	29	right	0.8	3.2	49	kOhm	M1	iridium oxide	Parylene-c
-62	Prob-8596-001139	48	right	1.6	2.8	57	kOhm	M1	iridium oxide	Parylene-c
-63	Prob-8596-001139	19	right	0.4	3.2	60	kOhm	M1	iridium oxide	Parylene-c
-64	Prob-8596-001139	39	right	1.2	3.2	62	kOhm	M1	iridium oxide	Parylene-c
-65	Prob-8596-001139	81	right	3.2	0.0	58	kOhm	M1	iridium oxide	Parylene-c
-66	Prob-8596-001139	82	right	3.2	0.4	49	kOhm	M1	iridium oxide	Parylene-c
-67	Prob-8596-001139	71	right	2.8	0.0	58	kOhm	M1	iridium oxide	Parylene-c
-68	Prob-8596-001139	72	right	2.8	0.4	71	kOhm	M1	iridium oxide	Parylene-c
-69	Prob-8596-001139	61	right	2.4	0.0	64	kOhm	M1	iridium oxide	Parylene-c
-70	Prob-8596-001139	62	right	2.4	0.4	57	kOhm	M1	iridium oxide	Parylene-c
-71	Prob-8596-001139	51	right	2.0	0.0	59	kOhm	M1	iridium oxide	Parylene-c
-72	Prob-8596-001139	52	right	2.0	0.4	55	kOhm	M1	iridium oxide	Parylene-c
-73	Prob-8596-001139	41	right	1.6	0.0	50	kOhm	M1	iridium oxide	Parylene-c
-74	Prob-8596-001139	42	right	1.6	0.4	60	kOhm	M1	iridium oxide	Parylene-c
-75	Prob-8596-001139	31	right	1.2	0.0	61	kOhm	M1	iridium oxide	Parylene-c
-76	Prob-8596-001139	32	right	1.2	0.4	56	kOhm	M1	iridium oxide	Parylene-c
-77	Prob-8596-001139	21	right	0.8	0.0	50	kOhm	M1	iridium oxide	Parylene-c
-78	Prob-8596-001139	22	right	0.8	0.4	65	kOhm	M1	iridium oxide	Parylene-c
-79	Prob-8596-001139	11	right	0.4	0.0	49	kOhm	M1	iridium oxide	Parylene-c
-80	Prob-8596-001139	12	right	0.4	0.4	59	kOhm	M1	iridium oxide	Parylene-c
-81	Prob-8596-001139	2	right	0.0	0.4	62	kOhm	M1	iridium oxide	Parylene-c
-82	Prob-8596-001139	23	right	0.8	0.8	53	kOhm	M1	iridium oxide	Parylene-c
-83	Prob-8596-001139	3	right	0.0	0.8	49	kOhm	M1	iridium oxide	Parylene-c
-84	Prob-8596-001139	13	right	0.4	0.8	58	kOhm	M1	iridium oxide	Parylene-c
-85	Prob-8596-001139	4	right	0.0	1.2	49	kOhm	M1	iridium oxide	Parylene-c
-86	Prob-8596-001139	14	right	0.4	1.2	92	kOhm	M1	iridium oxide	Parylene-c
-87	Prob-8596-001139	15	right	0.4	1.6	56	kOhm	M1	iridium oxide	Parylene-c
-88	Prob-8596-001139	5	right	0.0	1.6	73	kOhm	M1	iridium oxide	Parylene-c
-89	Prob-8596-001139	16	right	0.4	2.0	56	kOhm	M1	iridium oxide	Parylene-c
-90	Prob-8596-001139	6	right	0.0	2.0	48	kOhm	M1	iridium oxide	Parylene-c
-91	Prob-8596-001139	17	right	0.4	2.4	56	kOhm	M1	iridium oxide	Parylene-c
-92	Prob-8596-001139	7	right	0.0	2.4	47	kOhm	M1	iridium oxide	Parylene-c
-93	Prob-8596-001139	8	right	0.0	2.8	56	kOhm	M1	iridium oxide	Parylene-c
-94	Prob-8596-001139	18	right	0.4	2.8	49	kOhm	M1	iridium oxide	Parylene-c
-95	Prob-8596-001139	20	right	0.4	3.6	51	kOhm	M1	iridium oxide	Parylene-c
-96	Prob-8596-001139	9	right	0.0	3.2	55	kOhm	M1	iridium oxide	Parylene-c
+contact_id	probe_id	connector_aligned_id	hemisphere	x	y	spacial_unit	impedance	impedance_unit	location	material	insulation	contact_shape	radius
+1	Prob-8596-001139	93	right	3.6	0.8	mm	73	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+2	Prob-8596-001139	92	right	3.6	0.4	mm	92	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+3	Prob-8596-001139	94	right	3.6	1.2	mm	68	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+4	Prob-8596-001139	95	right	3.6	1.6	mm	67	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+5	Prob-8596-001139	75	right	2.8	1.6	mm	48	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+6	Prob-8596-001139	96	right	3.6	2	mm	57	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+7	Prob-8596-001139	85	right	3.2	1.6	mm	51	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+8	Prob-8596-001139	97	right	3.6	2.4	mm	61	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+9	Prob-8596-001139	86	right	3.2	2	mm	72	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+10	Prob-8596-001139	98	right	3.6	2.8	mm	57	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+11	Prob-8596-001139	87	right	3.2	2.4	mm	46	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+12	Prob-8596-001139	88	right	3.2	2.8	mm	41	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+13	Prob-8596-001139	77	right	2.8	2.4	mm	69	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+14	Prob-8596-001139	99	right	3.6	3.2	mm	44	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+15	Prob-8596-001139	66	right	2.4	2	mm	51	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+16	Prob-8596-001139	89	right	3.2	3.2	mm	46	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+17	Prob-8596-001139	76	right	2.8	2	mm	61	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+18	Prob-8596-001139	90	right	3.2	3.6	mm	47	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+19	Prob-8596-001139	67	right	2.4	2.4	mm	47	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+20	Prob-8596-001139	79	right	2.8	3.2	mm	44	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+21	Prob-8596-001139	58	right	2	2.8	mm	42	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+22	Prob-8596-001139	80	right	2.8	3.6	mm	43	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+23	Prob-8596-001139	78	right	2.8	2.8	mm	41	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+24	Prob-8596-001139	70	right	2.4	3.6	mm	48	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+25	Prob-8596-001139	68	right	2.4	2.8	mm	48	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+26	Prob-8596-001139	60	right	2	3.6	mm	45	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+27	Prob-8596-001139	69	right	2.4	3.2	mm	46	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+28	Prob-8596-001139	50	right	1.6	3.6	mm	44	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+29	Prob-8596-001139	59	right	2	3.2	mm	46	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+30	Prob-8596-001139	40	right	1.2	3.6	mm	45	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+31	Prob-8596-001139	49	right	1.6	3.2	mm	52	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+32	Prob-8596-001139	30	right	0.8	3.6	mm	51	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+33	Prob-8596-001139	83	right	3.2	0.8	mm	52	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+34	Prob-8596-001139	84	right	3.2	1.2	mm	69	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+35	Prob-8596-001139	73	right	2.8	0.8	mm	60	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+36	Prob-8596-001139	74	right	2.8	1.2	mm	76	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+37	Prob-8596-001139	63	right	2.4	0.8	mm	48	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+38	Prob-8596-001139	64	right	2.4	1.2	mm	58	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+39	Prob-8596-001139	53	right	2	0.8	mm	47	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+40	Prob-8596-001139	54	right	2	1.2	mm	54	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+41	Prob-8596-001139	43	right	1.6	0.8	mm	47	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+42	Prob-8596-001139	55	right	2	1.6	mm	57	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+43	Prob-8596-001139	44	right	1.6	1.2	mm	56	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+44	Prob-8596-001139	45	right	1.6	1.6	mm	57	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+45	Prob-8596-001139	33	right	1.2	0.8	mm	53	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+46	Prob-8596-001139	46	right	1.6	2	mm	53	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+47	Prob-8596-001139	34	right	1.2	1.2	mm	49	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+48	Prob-8596-001139	65	right	2.4	1.6	mm	47	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+49	Prob-8596-001139	24	right	0.8	1.2	mm	67	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+50	Prob-8596-001139	56	right	2	2	mm	57	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+51	Prob-8596-001139	35	right	1.2	1.6	mm	51	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+52	Prob-8596-001139	47	right	1.6	2.4	mm	50	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+53	Prob-8596-001139	25	right	0.8	1.6	mm	57	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+54	Prob-8596-001139	57	right	2	2.4	mm	52	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+55	Prob-8596-001139	26	right	0.8	2	mm	45	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+56	Prob-8596-001139	36	right	1.2	2	mm	46	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+57	Prob-8596-001139	27	right	0.8	2.4	mm	62	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+58	Prob-8596-001139	37	right	1.2	2.4	mm	64	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+59	Prob-8596-001139	28	right	0.8	2.8	mm	55	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+60	Prob-8596-001139	38	right	1.2	2.8	mm	57	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+61	Prob-8596-001139	29	right	0.8	3.2	mm	49	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+62	Prob-8596-001139	48	right	1.6	2.8	mm	57	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+63	Prob-8596-001139	19	right	0.4	3.2	mm	60	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+64	Prob-8596-001139	39	right	1.2	3.2	mm	62	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+65	Prob-8596-001139	81	right	3.2	0	mm	58	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+66	Prob-8596-001139	82	right	3.2	0.4	mm	49	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+67	Prob-8596-001139	71	right	2.8	0	mm	58	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+68	Prob-8596-001139	72	right	2.8	0.4	mm	71	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+69	Prob-8596-001139	61	right	2.4	0	mm	64	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+70	Prob-8596-001139	62	right	2.4	0.4	mm	57	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+71	Prob-8596-001139	51	right	2	0	mm	59	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+72	Prob-8596-001139	52	right	2	0.4	mm	55	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+73	Prob-8596-001139	41	right	1.6	0	mm	50	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+74	Prob-8596-001139	42	right	1.6	0.4	mm	60	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+75	Prob-8596-001139	31	right	1.2	0	mm	61	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+76	Prob-8596-001139	32	right	1.2	0.4	mm	56	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+77	Prob-8596-001139	21	right	0.8	0	mm	50	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+78	Prob-8596-001139	22	right	0.8	0.4	mm	65	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+79	Prob-8596-001139	11	right	0.4	0	mm	49	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+80	Prob-8596-001139	12	right	0.4	0.4	mm	59	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+81	Prob-8596-001139	2	right	0	0.4	mm	62	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+82	Prob-8596-001139	23	right	0.8	0.8	mm	53	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+83	Prob-8596-001139	3	right	0	0.8	mm	49	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+84	Prob-8596-001139	13	right	0.4	0.8	mm	58	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+85	Prob-8596-001139	4	right	0	1.2	mm	49	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+86	Prob-8596-001139	14	right	0.4	1.2	mm	92	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+87	Prob-8596-001139	15	right	0.4	1.6	mm	56	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+88	Prob-8596-001139	5	right	0	1.6	mm	73	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+89	Prob-8596-001139	16	right	0.4	2	mm	56	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+90	Prob-8596-001139	6	right	0	2	mm	48	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+91	Prob-8596-001139	17	right	0.4	2.4	mm	56	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+92	Prob-8596-001139	7	right	0	2.4	mm	47	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+93	Prob-8596-001139	8	right	0	2.8	mm	56	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+94	Prob-8596-001139	18	right	0.4	2.8	mm	49	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+95	Prob-8596-001139	20	right	0.4	3.6	mm	51	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
+96	Prob-8596-001139	9	right	0	3.2	mm	55	kOhm	M1	iridium oxide	Parylene-c	circle	0.025
