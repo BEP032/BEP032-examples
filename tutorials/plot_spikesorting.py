@@ -44,10 +44,10 @@ for rec in recordings[1:]:
 # in `docker`.
 
 sorting = si.run_sorter_container(sorter_name='ironclust', recording=recording_raw,
-                                       mode='singularity',
-                                       container_image='spikeinterface/ironclust-compiled-base',
-                                       output_folder='ironclust_output',
-                                       with_output=True, fGpu=False)
+                                  mode='singularity',
+                                  container_image='spikeinterface/ironclust-compiled-base',
+                                  output_folder='ironclust_output',
+                                  with_output=True, fGpu=False)
 print(sorting)
 
 # %%
@@ -57,8 +57,7 @@ print(sorting)
 
 si.plot_rasters(sorting)
 
-for ext in ['png', 'svg']:
-    plt.savefig(f'raster_plot.{ext}')
+plt.show()
 
 # %%
 # We can extract the waveforms on which the sorting is based. To align the waveforms we remove the
@@ -68,81 +67,8 @@ recording_filtered = si.highpass_filter(recording_raw, freq_min=300.)  # frequen
 recording_filtered.annotate(is_filtered=True)
 
 waveforms = si.extract_waveforms(recording_filtered, sorting, './ironclust_waveform_output',
-                                 load_if_exists=True, ms_before=1, ms_after=2.)
+                                 overwrite=True, ms_before=1, ms_after=2.)
 
 si.plot_unit_waveforms(waveforms)
 
 plt.show()
-
-# %%
-# Block splitters allow you alternate between code and text blocks **and**
-# separate sequential blocks of code (above) and text (below).
-
-##############################################################################
-# A line of ``#``'s also works for separating blocks. The above line of ``#``'s
-# separates the text block above from this text block. Notice however, that
-# separated text blocks only shows as a new lines between text, in the rendered
-# output.
-
-def dummy():
-    """This should not be part of a 'text' block'"""
-
-    # %%
-    # This comment inside a code block will remain in the code block
-    pass
-
-
-# this line should not be part of a 'text' block
-
-# %%
-#
-# ####################################################################
-#
-# The above syntax makes a line cut in Sphinx. Note the space between the first
-# ``#`` and the line of ``#``'s.
-
-# %%
-# .. warning::
-#     The next kind of comments are not supported (notice the line of ``#``'s
-#     and the ``# %%`` start at the margin instead of being indented like
-#     above) and become too hard to escape so just don't use code like this::
-#
-#         def dummy2():
-#             """Function docstring"""
-#         ####################################
-#         # This comment
-#         # %%
-#         # and this comment inside python indentation
-#         # breaks the block structure and is not
-#         # supported
-#             dummy2
-#
-
-"""Free strings are not supported. They will be rendered as a code block"""
-
-# %%
-# New lines can be included in your text block and the parser
-# is capable of retaining this important whitespace to work with Sphinx.
-# Everything after a block splitter and starting with ``#`` then one space,
-# is interpreted by Sphinx-Gallery to be a rST text block. Keep your text
-# block together using ``#`` and a space at the beginning of each line.
-#
-# rST header within text block
-# ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-print('one')
-
-# %%
-#
-
-# another way to separate code blocks shown above
-B = 1
-
-# %%
-# Last text block.
-#
-# That's all folks !
-#
-# .. literalinclude:: plot_parse.py
-#
-#
