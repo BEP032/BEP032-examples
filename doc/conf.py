@@ -56,6 +56,21 @@ html_static_path = ['_static']
 
 # Sphinx gallery project configuration
 sphinx_gallery_conf = {
-     'examples_dirs': '../tutorials',   # path to your example scripts
-     'gallery_dirs': 'auto_tutorials',  # path to where to save gallery generated output
+    'examples_dirs': '../tutorials',  # path to your example scripts
+    'gallery_dirs': 'auto_tutorials',  # path to where to save gallery generated output
+    'show_memory': True,
+    'line_numbers': True,
+    'ignore_pattern': r'in_container_sorter_script\.py',
+    'binder': {
+         # Required keys
+         'org': 'NeuralEnsemble',
+         'repo': 'https://gin.g-node.org/NeuralEnsemble/BEP032-examples',  # link to github repository
+         'branch': 'master', # Can be any branch, tag, or commit hash. Use a branch that hosts your docs.
+         'binderhub_url': 'https://mybinder.org', # Any URL of a binderhub deployment. Must be full URL (e.g. https://mybinder.org).
+         'dependencies': '../tutorials/environment.yml',
+         # Optional keys
+         'filepath_prefix': '',  # A prefix to prepend to any filepaths in Binder links.
+         'notebooks_dir': 'tutorials',  # Jupyter notebooks for Binder will be copied to this directory (relative to built documentation root).
+         'use_jupyter_lab': False  # Whether Binder links should start Jupyter Lab instead of the Jupyter Notebook interface.
+    }
 }
