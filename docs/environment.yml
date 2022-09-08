@@ -1,0 +1,10 @@
+name: BEP032-documentation
+channels:
+  - conda-forge
+dependencies:
+  - sphinx
+  - nbsphinx
+  - sphinx_gallery
+  - pip
+  - pip:
+     - myst_parser
