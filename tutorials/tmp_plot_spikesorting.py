@@ -1,7 +1,7 @@
 # -*- coding: utf-8 -*-
 """
 Spikesorting with SpikeInterface
-=========================================
+=================================
 
 One of the most common processing steps for neuronal data is the identification
 of spiking activity of individual neurons. [SpikeInterface](https://github.com/Spikeinterface/Spikeinterface)
@@ -39,8 +39,7 @@ for rec in recordings[1:]:
 # sorting packages. The list of available containers and their versions is available on
 # [DockerHub](<TODO: Add link here>).
 #
-# Here we run the sorting package `ironclust` using the containerized version. To run the c
-# ontainer we are using `singularity`, alternativly SpikeInterface also supports running contains
+# Here we run the sorting package `ironclust` using the containerized version. To run the container we are using `singularity`, alternativly SpikeInterface also supports running contains
 # in `docker`.
 
 sorting = si.run_sorter_container(sorter_name='ironclust', recording=recording_raw,
