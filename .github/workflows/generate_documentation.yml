@@ -18,7 +18,7 @@ jobs:
     # setup conda
     - uses: conda-incubator/setup-miniconda@v2
       with:
-        activate-environment: neo-test-env
+        activate-environment: doc_env
         python-version: ${{ matrix.python-version }}
         clean-patched-environment-file: false
 
