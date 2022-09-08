@@ -1,8 +1,6 @@
 name: "Generate Doc and Publish"
 on:
-  push:
-    branches:    
-      - master
+  push
 
 jobs:
   docs:
