@@ -63,14 +63,14 @@ sphinx_gallery_conf = {
     'ignore_pattern': r'in_container_sorter_script\.py',
     'binder': {
          # Required keys
-         'org': 'NeuralEnsemble',
-         'repo': 'https://gin.g-node.org/NeuralEnsemble/BEP032-examples',  # link to github repository
-         'branch': 'master', # Can be any branch, tag, or commit hash. Use a branch that hosts your docs.
+         'org': 'juliasprenger',
+         'repo': 'BEP032-doc',  # link to github repository
+         'branch': 'add/doc', # Can be any branch, tag, or commit hash. Use a branch that hosts your docs.
          'binderhub_url': 'https://mybinder.org', # Any URL of a binderhub deployment. Must be full URL (e.g. https://mybinder.org).
          'dependencies': '../tutorials/environment.yml',
          # Optional keys
          'filepath_prefix': '',  # A prefix to prepend to any filepaths in Binder links.
-         'notebooks_dir': 'tutorials',  # Jupyter notebooks for Binder will be copied to this directory (relative to built documentation root).
+         'notebooks_dir': 'doc',  # Jupyter notebooks for Binder will be copied to this directory (relative to built documentation root).
          'use_jupyter_lab': False  # Whether Binder links should start Jupyter Lab instead of the Jupyter Notebook interface.
     }
 }
