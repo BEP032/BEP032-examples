@@ -10,16 +10,31 @@ jobs:
     steps:
     #    - uses: actions/checkout@v3
     #    # Standard drop-in approach that should work for most people.
-    
+
+    - name: Get current year-month
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m')"
+
     # setup conda
-    - name: Add conda to system path
-      run: |
-        # $CONDA is an environment variable pointing to the root of the miniconda directory
-        echo $CONDA/bin >> $GITHUB_PATH
+    - uses: conda-incubator/setup-miniconda@v2
+      with:
+        activate-environment: neo-test-env
+        python-version: ${{ matrix.python-version }}
+        clean-patched-environment-file: false
+
+    - uses: actions/cache@v3
+      # the cache for python package is reset:
+      #   * every month
+      #   * when requirements/requirements_testing change
+      id: cache-conda-env
+      with:
+        path: /usr/share/miniconda/envs/doc_env
+        key: ${{ runner.os }}-conda-env-${{ hashFiles('**/environment.yml') }}-${{ steps.date.outputs.date }}
+
 
     - name: Install dependencies for fetching repo
       run: |
-        conda install --name base -c conda-forge git-annex datalad
+        conda install --name doc_env -c python conda-forge git-annex datalad
 
     - name: Configure git
       run: |
@@ -33,16 +48,16 @@ jobs:
 
     - name: Install dependencies for tutorials and documentation
       run: |
-        conda env update --file tutorials/environment.yml --name base
-        conda env update --file
+        conda env update --file tutorials/environment.yml --name doc_env
+        conda env update --file docs/environment.yml --name doc_env
 
-    - name: Lint with flake8
-      run: |
-        conda install flake8
-        # stop the build if there are Python syntax errors or undefined names
-        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
-        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
-        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
+    #    - name: Lint with flake8
+    #      run: |
+    #        conda install flake8
+    #        # stop the build if there are Python syntax errors or undefined names
+    #        flake8 . --count --select=E9,F63,F7,F82 --show-source --statistics
+    #        # exit-zero treats all errors as warnings. The GitHub editor is 127 chars wide
+    #        flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
 
     - uses: ammaraskar/sphinx-action@master
       with:
