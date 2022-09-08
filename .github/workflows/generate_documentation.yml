@@ -4,8 +4,11 @@ on:
 
 jobs:
   docs:
-
     runs-on: ubuntu-latest
+    defaults:
+      # by default run in bash mode (required for conda usage)
+      run:
+        shell: bash -l {0}
 
     steps:
     #    - uses: actions/checkout@v3
