@@ -11,7 +11,7 @@ Welcome to the BEP032-examples documentation!
     auto_tutorials/index
 
 
-BEP032-examples is a collection of example datasets linked to the  BIDS extension proposal for electrophysiology, for more details see the [BEP032 specifications](https://bids.neuroimaging.io/bep032). The example datasets are hosted on [GIN](https://gin.g-node.org/NeuralEnsemble/BEP032-examples).
+BEP032-examples is a collection of example datasets linked to the  BIDS extension proposal for electrophysiology, for more details see the `BEP032 specifications <https://bids.neuroimaging.io/bep03>`_. The example datasets are hosted on `GIN <https://gin.g-node.org/NeuralEnsemble/BEP032-examples>`_.
 
 .. include:: auto_tutorials/index.rst
 

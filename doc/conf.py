@@ -54,10 +54,13 @@ html_theme = 'alabaster'
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
+examples_dirs = ['../tutorials']
+gallery_dirs = ['tutorials']
+
 # Sphinx gallery project configuration
 sphinx_gallery_conf = {
-    'examples_dirs': '../tutorials',  # path to your example scripts
-    'gallery_dirs': 'auto_tutorials',  # path to where to save gallery generated output
+    'examples_dirs': examples_dirs,  # path to your example scripts
+    'gallery_dirs': gallery_dirs,  # path to where to save gallery generated output
     'show_memory': True,
     'line_numbers': True,
     'ignore_pattern': r'in_container_sorter_script\.py',

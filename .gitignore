@@ -30,7 +30,7 @@ Icon?
 Thumbs.db
 
 # Sphinx
-doc/auto_tutorials
+doc/tutorials
 
 # Tutorials
 tutorials/ironclust*
