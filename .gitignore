@@ -29,9 +29,6 @@ ehthumbs.db
 Icon?
 Thumbs.db
 
-# Sphinx
-doc/tutorials
-
 # Tutorials
 tutorials/ironclust*
 tutorials/spikeinterface_recording.json
