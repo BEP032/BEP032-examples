@@ -47,11 +47,21 @@ jobs:
         git config --global user.email "action@github.com"
         git config --global user.name "GitHub Action"
 
+    - name: Get repo and file status
+      run: |
+        pwd
+        echo 'current level'
+        ls -a
+        echo 'level -1'
+        ls -a */
+        echo 'level +1'
+        ls -a ../
+
     # TODO: This should be cached
     - name: Fetch repository from GIN (including git-annex content)
       run: |
         # TODO: remove dev branch specification later on
-        datalad install --get-data --branch add/doc -s https://gin.g-node.org/sprenger/BEP032-examples
+        datalad install --get-data --branch add/doc -s https://gin.g-node.org/sprenger/BEP032-examples ..
         # TODO: should be https://gin.g-node.org/NeuralEnsemble/BEP032-examples later on
 
     - name: Get repo and file status
