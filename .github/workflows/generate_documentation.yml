@@ -18,8 +18,6 @@ jobs:
       run: |
         ls -lh /tmp
         touch /tmp/sphinx-log
-        exit 1
-
 
     - name: Get current year-month
       id: date
