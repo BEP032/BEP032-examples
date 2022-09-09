@@ -49,7 +49,7 @@ jobs:
 
     - name: Fetch repository from GIN (including git-annex content)
       run: |
-        datalad install --get-data -s https://gin.g-node.org/NeuralEnsemble/BEP032-examples
+        datalad install --get-data --branch add/doc -s https://gin.g-node.org/NeuralEnsemble/BEP032-examples
         cd BEP032-examples
 
     - name: Install dependencies for tutorials and documentation
