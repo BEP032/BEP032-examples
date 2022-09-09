@@ -57,8 +57,12 @@ jobs:
     - name: Get repo and file status
       run: |
         pwd
-        ls
-        ls */
+        echo 'current level'
+        ls -a
+        echo 'level -1'
+        ls -a */
+        echo 'level +1'
+        ls -a ../
         git status
 
     - name: Install dependencies for tutorials and documentation
