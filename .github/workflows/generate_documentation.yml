@@ -75,8 +75,7 @@ jobs:
 
     - name: Install dependencies for tutorials and documentation
       run: |
-        conda env update --file tutorials/environment.yml
-        conda env update --file docs/environment.yml
+        conda env update --file tutorials/environment.yml --file docs/environment.yml
 
     #    - name: Lint with flake8
     #      run: |
