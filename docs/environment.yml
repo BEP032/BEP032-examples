@@ -4,7 +4,7 @@ channels:
 dependencies:
   - sphinx
   - nbsphinx
-  - sphinx_gallery
+  - sphinx-gallery
   - pip
   - pip:
      - myst_parser

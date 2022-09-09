@@ -36,7 +36,7 @@ jobs:
 
     - name: Install dependencies for fetching repo
       run: |
-        conda install --name doc_env -c conda-forge python git-annex datalad
+        conda install --name doc_env -c conda-forge git-annex datalad
 
     - name: Print conda packages
       run: |
