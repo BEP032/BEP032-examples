@@ -71,7 +71,6 @@ jobs:
         ls -a */
         echo 'level +1'
         ls -a ../
-        cd BEP032-example
         git status
 
     - name: Install dependencies for tutorials and documentation
