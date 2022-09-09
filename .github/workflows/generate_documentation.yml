@@ -61,7 +61,6 @@ jobs:
         # TODO: remove dev branch specification later on
         datalad install --get-data --branch add/doc -s https://gin.g-node.org/sprenger/BEP032-examples .
         # TODO: should be https://gin.g-node.org/NeuralEnsemble/BEP032-examples later on
-        cd BEP032-examples
 
     - name: Get repo and file status
       run: |
