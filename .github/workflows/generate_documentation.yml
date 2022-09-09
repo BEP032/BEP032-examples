@@ -56,8 +56,9 @@ jobs:
 
     - name: Get repo and file status
       run: |
-        git status
+        pwd
         ls
+        git status
 
     - name: Install dependencies for tutorials and documentation
       run: |
