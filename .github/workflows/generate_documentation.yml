@@ -54,6 +54,11 @@ jobs:
         # TODO: should be https://gin.g-node.org/NeuralEnsemble/BEP032-examples later on
         cd BEP032-examples
 
+    - name: Get repo and file status
+      run: |
+        git status
+        ls
+
     - name: Install dependencies for tutorials and documentation
       run: |
         conda env update --file tutorials/environment.yml
