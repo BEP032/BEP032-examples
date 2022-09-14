@@ -84,7 +84,7 @@ jobs:
         name: DocumentationHTML
         path: docs/_build/html/
 
-    -uses: Configure git remote to host documentation
+    - name: Configure git remote to host documentation
       run: |
         git remote add ghBEP git@github.com:BEP032/BEP032-examples.git
 
