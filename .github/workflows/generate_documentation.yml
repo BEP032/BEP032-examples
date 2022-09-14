@@ -101,9 +101,11 @@ jobs:
         # The above command will fail if no changes were present, so we ignore
         # that.
 
-    - name: Push changes
+    - uses: LuisEnMarroquin/setup-ssh-action@v2.0.0
       with:
-        ssh-key: ${{ secrets.GITHUB_TOKEN }}
+        SSHKEY: ${{ secrets.GITHUB_TOKEN }}
+
+    - name: Push changes
       run: |
         git push ghBEP gh-pages
         branch: gh-pages
