@@ -84,6 +84,10 @@ jobs:
         name: DocumentationHTML
         path: docs/_build/html/
 
+    - uses: LuisEnMarroquin/setup-ssh-action@v2.0.0
+      with:
+        SSHKEY: ${{ secrets.GITHUB_TOKEN }}
+
     - name: Configure git remote to host documentation
       run: |
         git remote add ghBEP git@github.com:BEP032/BEP032-examples.git
@@ -103,10 +107,6 @@ jobs:
         git commit -m "Update documentation" -a || true
         # The above command will fail if no changes were present, so we ignore
         # that.
-
-    - uses: LuisEnMarroquin/setup-ssh-action@v2.0.0
-      with:
-        SSHKEY: ${{ secrets.GITHUB_TOKEN }}
 
     - name: Push changes
       run: |
