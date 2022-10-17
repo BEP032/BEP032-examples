@@ -11,37 +11,20 @@ jobs:
         shell: bash -l {0}
 
     steps:
-    #    - uses: actions/checkout@v3
-    #    # Standard drop-in approach that should work for most people.
-
-    - name: Debugging
-      run: |
-        touch /tmp/sphinx-log
-        ls -lh /tmp
-
-    - name: Get current year-month
-      id: date
-      run: echo "::set-output name=date::$(date +'%Y-%m')"
+#    - name: Debugging
+#      run: |
+#        touch /tmp/sphinx-log
+#        ls -lh /tmp
 
     # setup conda
     - uses: conda-incubator/setup-miniconda@v2
       with:
-        activate-environment: doc_env
         python-version: 3.9
         clean-patched-environment-file: false
 
-    - uses: actions/cache@v3
-      # the cache for python package is reset:
-      #   * every month
-      #   * when requirements/requirements_testing change
-      id: cache-conda-env
-      with:
-        path: /usr/share/miniconda/envs/doc_env
-        key: ${{ runner.os }}-conda-env-${{ hashFiles('**/environment.yml') }}-${{ steps.date.outputs.date }}
-
     - name: Install dependencies for fetching repo
       run: |
-        conda install --name doc_env -c conda-forge git-annex datalad
+        conda install -c conda-forge git-annex datalad
 
     - name: Configure git
       run: |
@@ -56,43 +39,78 @@ jobs:
         # TODO: should be https://gin.g-node.org/NeuralEnsemble/BEP032-examples later on
         cd complete_repo
 
+    - name: Get current year-month
+      id: date
+      run: echo "::set-output name=date::$(date +'%Y-%m')"
+
+    - uses: actions/cache@v3
+      # the cache for python package is reset:
+      #   * every month
+      #   * when requirements/requirements_testing change
+      id: cache-conda-env
+      with:
+        path: /usr/share/miniconda/envs/doc_env
+        key: ${{ runner.os }}-conda-env-${{ hashFiles('**/environment.yml') }}-${{ steps.date.outputs.date }}
+
     - name: Install dependencies for tutorials and documentation
       run: |
-        conda env update --name doc_env --file tutorials/environment.yml --file docs/environment.yml
+        conda create -n doc_env --file complete_repo/tutorials/environment.yml --file complete_repo/docs/environment.yml
 
-    - name: Print conda packages
-      run: |
-        conda list
-
-#    - name: Build documentation
+#    - name: Print conda packages
 #      run: |
-#        cd docs
-#        make html
-#
-#    #    - uses: ammaraskar/sphinx-action@master
-#    #      with:
-#    #        docs-folder: "docs/"
-#    # Example of using a custom build-command.
-#    #    - uses: ammaraskar/sphinx-action@master
-#    #      with:
-#    #        build-command: "sphinx-build -b html . _build"
-#    #        docs-folder: "docs/"
-#    # Great extra actions to compose with:
-#    # Create an artifact of the html output.
-#    - uses: actions/upload-artifact@v1
-#      with:
-#        name: DocumentationHTML
-#        path: docs/_build/html/
-#
+#        conda list
+
+    - name: Build documentation
+      run: |
+        cd docs
+        make html
+
+    - name: Checkout github pages repo
+      uses: actions/checkout@v3
+      with:
+        ref: gh-pages  # branch to check out
+
+    - name: move documentation to github pages repo
+      run: |
+        rm -r {GITHUB_WORKSPACE}/docs/_build/html
+        rm -r {GITHUB_WORKSPACE/docs/tutorials
+        cp -r _builds/html {GITHUB_WORKSPACE}/docs/_build/html
+        cp -r tutorials {GITHUB_WORKSPACE}/docs
+
+
+
+    #    - uses: ammaraskar/sphinx-action@master
+    #      with:
+    #        docs-folder: "docs/"
+    # Example of using a custom build-command.
+    #    - uses: ammaraskar/sphinx-action@master
+    #      with:
+    #        build-command: "sphinx-build -b html . _build"
+    #        docs-folder: "docs/"
+    # Great extra actions to compose with:
+    # Create an artifact of the html output.
+    - uses: actions/upload-artifact@v1
+      with:
+        name: DocumentationHTML
+        path: docs/_build/html/
+
+    - name: Commit documentation and push
+      run: |
+        cd {GITHUB_WORKSPACE}
+        git add docs/*
+        git commit -m "Update documentation" -a || true
+        git push origin main
+
 #    - uses: actions/checkout@v3
-#
-##    - name: Configure git remote to host documentation
-##      run: |
-##        git remote add ghBEP git@github.com:BEP032/BEP032-examples.git
-##        git fetch ghBEP
-#
-#    # Publish built docs to gh-pages branch.
-#    # ===============================
+#      -
+
+#    - name: Configure git remote to host documentation
+#      run: |
+#        git remote add ghBEP git@github.com:BEP032/BEP032-examples.git
+#        git fetch ghBEP
+
+    # Publish built docs to gh-pages branch.
+    # ===============================
 #    - name: Commit documentation changes
 #      run: |
 #        git checkout -b gh-pages origin/gh-pages
@@ -110,4 +128,4 @@ jobs:
 #      run: |
 #        git push ghBEP gh-pages
 #        branch: gh-pages
-#    # ===============================
+    # ===============================
