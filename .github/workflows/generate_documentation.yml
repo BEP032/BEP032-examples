@@ -54,7 +54,9 @@ jobs:
 
     - name: Install dependencies for tutorials and documentation
       run: |
-        conda create -n doc_env --file complete_repo/tutorials/environment.yml --file complete_repo/docs/environment.yml
+        conda env create doc_env
+        conda env update -n doc_env --file complete_repo/tutorials/environment.yml --file complete_repo/docs/environment.yml
+        conda activate doc_env
 
 #    - name: Print conda packages
 #      run: |
