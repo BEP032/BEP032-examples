@@ -41,7 +41,7 @@ jobs:
 
     - name: Get current year-month
       id: date
-      run: echo "{date}={$(date +'%Y-%m')}" >> $GITHUB_STATE
+      run: echo "date=$(date +'%Y-%m')" >> $GITHUB_OUTPUT
 
     - uses: actions/cache@v3
       # the cache for python package is reset:
@@ -50,7 +50,7 @@ jobs:
       id: cache-conda-env
       with:
         path: /usr/share/miniconda/envs/doc_env
-        key: ${{ runner.os }}-conda-env-${{ hashFiles('**/environment.yml') }}-$GITHUB_STATE.date
+        key: ${{ runner.os }}-conda-env-${{ hashFiles('**/environment.yml') }}-${{steps.date.outputs.date}}
 
     - name: Install dependencies for tutorials and documentation
       run: |
